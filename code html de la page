@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma Page Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Bienvenue sur ma page web</h1>
+    
+    <h2>Lecteur Vidéo</h2>
+    <video width="600" controls>
+        <source src="mon_video.mp4" type="video/mp4">
+        Votre navigateur ne supporte pas la vidéo.
+    </video>
+
+    <h2>Lecteur Audio</h2>
+    <audio controls>
+        <source src="mon_audio.mp3" type="audio/mp3">
+        Votre navigateur ne supporte pas l'audio.
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
